@@ -134,8 +134,8 @@
             bindings = <
               &kp Q                   &kp W            &kp E            &kp R    &kp T        &kp Y  &kp U        &kp I             &kp O             &kp P
               &HMShiftL LEFT_SHIFT A  &HML LEFT_GUI S  &HML LEFT_ALT D  &kp F    &kp G        &kp H  &kp J        &HMR RIGHT_ALT K  &HMR RIGHT_GUI L  &HMShiftR RIGHT_SHIFT SEMICOLON
-&lt 2 ESCAPE  &kp Z                   &kp X            &kp C            &kp V    &kp B        &kp N  &kp M        &kp COMMA         &kp DOT           &kp FSLH                         &kp CAPS
-                                                       &kp DELETE       &kp TAB  &kp ENTER    &sl 3  &lt 1 SPACE  &kp BSPC
+              &kp Z                   &kp X            &kp C            &kp V    &kp B        &kp N  &kp M        &kp COMMA         &kp DOT           &kp FSLH
+                                      &lt 2 ESCAPE     &kp DELETE       &kp TAB  &kp ENTER    &sl 3  &lt 1 SPACE  &kp BSPC          &kp CAPS
             >;
         };
 
@@ -147,8 +147,8 @@
             bindings = <
         &kp EXCLAMATION       &kp AT                 &kp POUND         &kp DOLLAR         &kp PERCENT      &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp UNDERSCORE  &kp GRAVE
         &trans                &trans                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH    &trans     &trans         &trans         &trans          &kp SQT
-&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE         &kp HOME   &kp PAGE_UP    &kp PAGE_DOWN  &kp END         &kp DOUBLE_QUOTES  &trans
-                                                     &trans            &trans             &trans           &trans     &trans         &trans
+        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE         &kp HOME   &kp PAGE_UP    &kp PAGE_DOWN  &kp END         &kp DOUBLE_QUOTES  
+                                     &trans                &trans            &trans             &trans           &trans     &trans         &trans    &trans
             >;
         };
 
@@ -156,8 +156,8 @@
             bindings = <
         &trans           &kp F7  &kp F8  &kp F9  &kp F12    &kp KP_MULTIPLY  &kp N7  &kp N8  &kp N9  &kp PLUS
         &trans           &kp F4  &kp F5  &kp F6  &kp F11    &kp EQUAL        &kp N4  &kp N5  &kp N6  &kp MINUS
-&trans  &kp PRINTSCREEN  &kp F1  &kp F2  &kp F3  &kp F10    &kp COLON        &kp N1  &kp N2  &kp N3  &kp KP_DIVIDE  &trans
-                                 &trans  &trans  &trans     &kp DOT          &kp N0  &trans
+  &kp PRINTSCREEN  &kp F1  &kp F2  &kp F3  &kp F10    &kp COLON        &kp N1  &kp N2  &kp N3  &kp KP_DIVIDE  
+                                &trans &trans  &trans  &trans     &kp DOT          &kp N0  &trans &trans
             >;
         };
 
@@ -165,8 +165,8 @@
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp UP_ARROW  &trans     &trans
         &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans        &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans    &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans        &trans     &trans  
+                   &trans     &trans  &trans  &trans    &trans  &trans    &trans &trans
             >;
         };
     };
